@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@color/grey_background">
+
+    <ListView
+        android:id="@+id/ui_picture_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:scrollbarSize="4dp"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/downloader_list_selector"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/downloader_scroll_bar"
+        android:fadeScrollbars="true"></ListView>
+
+    <LinearLayout
+        android:id="@+id/ui_picture_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDuration="3500"
+            android:indeterminateOnly="true"
+            android:layout_gravity="center"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/progress_medium_blue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingTop="12dp"
+            android:text="正在刷新数据"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</RelativeLayout>

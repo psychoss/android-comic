@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray_efefef">#ffefefef</color>
+    <color name="green_00dc00">#ff00dc00</color>
+    <color name="kitkat_gray_dark">#25FF4100</color>
+    <color name="kitkat_gray_light">#19FF4100</color>
+    <color name="downloader_scroll_bar_thumbnail">#8833B5E5</color>
+    <color name="list_bg_selected">#88FF4100</color>
+</resources>

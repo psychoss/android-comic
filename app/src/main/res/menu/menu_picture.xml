@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:title="刷新"
+        android:orderInCategory="200"
+
+        android:icon="@drawable/ic_refresh_white_36dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_download"
+        android:title="下载"
+        android:icon="@drawable/ic_file_download_white_36dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

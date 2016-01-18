@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="euphoria.psycho.comic">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DownloadActivity"  android:label="下载"/>
+
+        <activity android:name=".OnePieceActivity"  android:label="海贼王"/>
+        <activity
+            android:name=".GalleryActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="reverseLandscape"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:name=".PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+                <data android:mimeType="*/rmvb" />
+                <data android:mimeType="*/avi" />
+                <data android:mimeType="application/mp4" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".DownloaderService"/>
+        <activity android:name=".PictureActivity" android:label="图片"></activity>
+        <receiver android:name=".receiver.PhoneStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

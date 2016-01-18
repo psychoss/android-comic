@@ -1,0 +1,2 @@
+include ':app', ':player', ':downloader', ':androidasync-2.0.4'
+startParameter.offline = true

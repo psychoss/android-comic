@@ -1,0 +1,70 @@
+<resources>
+    <dimen name="action_bar_height">56dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="media_controller_play_button_padding_left">15.329987dip</dimen>
+    <dimen name="media_controller_normal_button_width_in_full_screen">64.0dip</dimen>
+    <dimen name="media_controller_seekbar_text_size">10.669983dip</dimen>
+    <dimen name="media_controller_share_button_width">46.669983dip</dimen>
+    <dimen name="media_controller_title_textsize">12.0dip</dimen>
+    <dimen name="media_controller_title_image_width">14.669983dip</dimen>
+    <dimen name="media_controller_title_image_height">15.329987dip</dimen>
+    <dimen name="media_controller_titlebar_height">37.329987dip</dimen>
+    <dimen name="media_controller_title_margin">13.329987dip</dimen>
+    <dimen name="media_controller_title_margin_right">6.669983dip</dimen>
+    <dimen name="media_controller_title_time_margin_left">28.0dip</dimen>
+    <dimen name="media_controller_select_drama_enter_button_padding">14.669983dip</dimen>
+    <dimen name="media_controller_share_button_padding">9.329987dip</dimen>
+    <dimen name="media_controller_current_time_margin_left">10.669983dip</dimen>
+    <dimen name="media_controller_titlebar_text_size">13.0dip</dimen>
+    <dimen name="media_controller_title_battery_width">23.0dip</dimen>
+    <dimen name="media_controller_banner_hint_image_width_height">14.0dip</dimen>
+    <dimen name="media_controller_banner_margin_bottom">4.0dip</dimen>
+    <dimen name="media_controller_title_battery_height">12.0dip</dimen>
+    <dimen name="media_controller_title_battery_margin_right">6.0dip</dimen>
+    <dimen name="media_controller_title_battery_margin_left">4.0dip</dimen>
+    <dimen name="media_controller_share_button_height">30.669983dip</dimen>
+    <dimen name="media_controller_banner_text_size">12.0dip</dimen>
+    <dimen name="media_controller_banner_text_margin_left">2.669983dip</dimen>
+    <dimen name="media_controller_seekbar_height">26.669983dip</dimen>
+    <dimen name="media_controller_seekbar_margin_right">0.0dip</dimen>
+    <dimen name="media_controller_seekbar_margin_left">0.0dip</dimen>
+    <dimen name="media_controller_play_button_padding_right">15.329987dip</dimen>
+    <dimen name="media_controller_guide_common_textsize">13.329987dip</dimen>
+    <dimen name="media_controller_right_area_button_text_padding">5.3299866dip</dimen>
+    <dimen name="media_controller_right_area_button_padding_top">8.669983dip</dimen>
+    <dimen name="media_controller_right_vertical_area_button_height">61.329987dip</dimen>
+    <dimen name="media_controller_right_vertical_area_button_width">60.0dip</dimen>
+    <dimen name="media_controller_right_area_button_padding_drawable">0.0dip</dimen>
+    <dimen name="media_controller_normal_button_height">33.329987dip</dimen>
+    <dimen name="media_controller_fullscreen_button_margin_right">0.6700001dip</dimen>
+    <dimen name="media_controller_bottom_bar_height">45.0dip</dimen>
+    <dimen name="media_controller_banner_padding">12.0dip</dimen>
+    <dimen name="media_controller_banner_button_height">28.669983dip</dimen>
+    <dimen name="media_controller_banner_button_margin_left">4.0dip</dimen>
+
+    <!-- Margin around the dialog, excluding the button bar -->
+    <dimen name="md_dialog_frame_margin">24dp</dimen>
+    <dimen name="md_title_frame_margin_bottom">16dp</dimen>
+    <dimen name="md_title_frame_margin_bottom_list">4dp</dimen>
+    <dimen name="md_button_min_width">42dp</dimen>
+    <!-- Above and below buttons, 36+12=48 for the height of the button frame -->
+    <dimen name="md_button_inset_vertical">6dp</dimen>
+    <dimen name="md_button_inset_horizontal">4dp</dimen>
+    <dimen name="md_button_textpadding_horizontal">1dp</dimen>
+    <dimen name="md_button_padding_horizontal">8dp</dimen>
+    <dimen name="md_button_padding_vertical">4dp</dimen>
+    <dimen name="md_button_padding_horizontal_internalexternal">32dp</dimen>
+    <!-- 16dp - 4dp (inset) -->
+    <dimen name="md_button_padding_frame_side">12dp</dimen>
+    <dimen name="md_neutral_button_margin">12dp</dimen>
+    <!-- Applied to content scrollview/listview and customview, the spec calls for 16dp between the
+             bottom of the content and the top of the button bar, we split this between the two for
+             ease of layouts and adjustments. Likewise the spec implies 16dp between the title and
+             content and we split that as well.
+
+             Splitting makes it easier to have consistent padding against the dividers.
+             -->
+
+</resources>

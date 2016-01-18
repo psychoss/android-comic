@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">漫画</string>
+    <string name="action_retry">重新下载</string>
+
+    <string name="parse_no_data">未解析到数据。</string>
+
+    <string name="no_internet">无网络连接。</string>
+</resources>

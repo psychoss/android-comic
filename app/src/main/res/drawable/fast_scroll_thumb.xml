@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/fastscroll_thumb"
+            android:tint="@color/deep_teal"/>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/fastscroll_thumb"
+            android:tint="@color/text_color_light"/>
+    </item>
+</selector>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_one_refresh"
+        android:title="刷新"
+        android:orderInCategory="400"
+
+        android:icon="@drawable/ic_refresh_white_36dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_one_back"
+
+        android:title="上一页"
+        android:orderInCategory="300"
+
+        android:icon="@drawable/ic_arrow_back_white_36dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_one_next"
+
+        android:title="下一页"
+        android:orderInCategory="200"
+
+        android:icon="@drawable/ic_arrow_forward_white_36dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_one_star"
+
+        android:title="第一页"
+        android:orderInCategory="100"
+
+        android:icon="@drawable/ic_star_white_36dp"
+        app:showAsAction="ifRoom" />
+</menu>

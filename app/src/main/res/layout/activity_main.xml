@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/grey_background"
+    tools:context=".MainActivity">
+
+    <ScrollView
+
+        android:id="@+id/ui_main_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ui_main_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drop_shadow"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hot Woman"
+                    android:textSize="32sp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="12dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/picture_image_view"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/picture"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

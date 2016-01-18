@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ui_downloader_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@null"
+    android:dividerHeight="8dp"
+    android:paddingTop="20dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:scrollbarSize="4dp"
+    android:drawSelectorOnTop="true"
+    android:listSelector="@drawable/downloader_list_selector"
+    android:scrollbarStyle="outsideOverlay"
+    android:fastScrollEnabled="true"
+    android:scrollbarThumbVertical="@drawable/downloader_scroll_bar">
+
+</android.support.v7.widget.RecyclerView>

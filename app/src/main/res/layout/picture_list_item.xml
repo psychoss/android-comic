@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drop_shadow"
+    android:padding="8dp">
+<TextView
+    android:id="@+id/ui_picture_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"/>
+</RelativeLayout>

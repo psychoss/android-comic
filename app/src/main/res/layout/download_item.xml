@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drop_shadow"
+    android:padding="@dimen/downloader_container_padding">
+
+    <TextView
+        android:id="@+id/ui_downloader_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+    <euphoria.psycho.downloader.LProgressBar
+        android:id="@+id/ui_downloader_progress"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_below="@id/ui_downloader_title"/>
+
+
+    <RelativeLayout
+        android:layout_below="@id/ui_downloader_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/ui_downloader_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:text="0.0KB" />
+
+        <TextView
+
+
+            android:id="@+id/ui_downloader_slash"
+            android:layout_toRightOf="@id/ui_downloader_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:text="/"
+            android:layout_marginRight="@dimen/downloader_margin_smallest"
+            android:layout_marginLeft="@dimen/downloader_margin_smallest" />
+
+        <TextView
+            android:layout_toRightOf="@id/ui_downloader_slash"
+            android:id="@+id/ui_downloader_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:text="0.0KB" />
+
+        <TextView
+
+            android:id="@+id/ui_downloader_speed_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

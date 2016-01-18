@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="downloader_progress_bar_height">5.0dip</dimen>
+    <dimen name="downloader_margin_small">5.0dp</dimen>
+    <dimen name="downloader_margin_smallest">2.0dp</dimen>
+    <dimen name="downloader_container_padding">8.0dp</dimen>
+</resources>
